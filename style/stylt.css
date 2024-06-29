@@ -19,14 +19,28 @@
     color: #E55473;
 }
 
+.container{
+    width: 73%;
+    max-width: 1420px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
 /* nav related style */
+/* header > div{
+    background-color: rgb(223, 200, 200);
+} */
+
+
+header > div {
+    background-color: rgb(223, 200, 200);
+}
 
 nav {
     display: flex;
-    justify-content: space-around;
     text-align: center;
-    background-color: rgb(223, 200, 200);
-    padding: 20px;
+    justify-content: space-between;
+    
 }
 
 .img-icon {
@@ -372,6 +386,7 @@ footer {
     width: 90%;
     margin: auto;
     margin-top: 50px;
+    width: 1400px;
 }
 
 
